@@ -1,0 +1,25 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-10-20T12:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_1",
+      "parentId": "wrk_1",
+      "name": "Criar Curso",
+      "method": "POST",
+      "url": "http://localhost:3000/courses",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"name\": \"JavaScript Avançado\",\n  \"category\": \"Programação\"\n}"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ]
+}
